@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+:root {
+    /* Colors */
+    --black: #000;
+    --white: #fff;
+    --blue: #005FFF;
+    --gray1: #595959;
+    --gray2: #A8A8A8;
+    --lightblue: #E0EBFE;
+
+
+    /* Fonts */
+    --main-font: 'Montserrat', sans-serif;
+    /* Основний шрифт */
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 90vw;
+}
+
+h3 {
+    color: var(--black);
+    font-family: var(--main-font);
+    font-size: 1.43vw;
+    font-weight: 700;
+    line-height: 1.45vw;
+    text-decoration: none;
+}
+
+.Montbold14 {
+    color: var(--black);
+    font-family: var(--main-font);
+    font-size: 0.91vw;
+    font-weight: 700;
+}
+
+li,
+.Montreg14 {
+    color: var(--black);
+    font-family: var(--main-font);
+    font-size: 0.91vw;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.li {
+    padding-left: 0.7vw;
+    margin-left: 0.2vw;
+    font-weight: 700;
+    font-size: 1vw;
+}
+.link {
+    color: var(--blue);
+    font-family: var(--main-font);
+    font-size: 0.91vw;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    gap: 0.5vw;
+    padding-left: 2vw;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3vw;
+    padding-left: 1vw;
+}
+
+img {
+    width: 24.9vw;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightblue);
+    padding-top: 2.69vw;
+}
+
+.sidebar_box2 {
+    display: flex;
+    flex-direction: column;
+    padding: 2.69vw;
+}
+
+.cont_box {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.cont_box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+    padding-left: 0.1vw;
+}
+
+.block2, .sidebar_box {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin-bottom: 2.69vw;
+}
+
+.block2 {
+    margin-bottom: 0;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1vw;
+    width: 46.39vw;
+}
+
+h1 {
+    color: var(--black);
+    font-family: var(--main-font);
+    font-size: 3.06vw;
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--blue);
+    font-family: var(--main-font);
+    font-size: 1vw;
+    font-weight: 800;
+}
+
+.text {
+    color: var(--gray1);
+    font-family: var(--main-font);
+    font-size: 0.91vw;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 1.45vw;
+}
+
+.text_light {
+    color: var(--gray2);
+    font-family: var(--main-font);
+    font-size: 0.78vw;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.45vw;
+    margin-top: 0.2vw;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    padding: 5.28vw 0 0 5.8vw;
+    gap: 2.69vw;
+}
+
+span {
+    color: var(--black);
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+    width: 34.38vw;
+    gap: 0.78vw;
+}
+
+.block3_box, .block4 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+.text_black {
+    color: black;
+    font-family: var(--main-font);
+    font-size: 0.78vw;
+    font-weight: 800;
+    margin-bottom: -0.4vw;
+}
